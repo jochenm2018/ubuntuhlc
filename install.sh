@@ -1,5 +1,7 @@
 mkdir headless_chrome && cd headless_chrome
 
+apt-get nodejs
+
 # curl und jq
 apt-get install curl
 apt-get install jq
@@ -66,3 +68,5 @@ apt-get install -y xfonts-75dpi
 apt-get install -y xfonts-utils
 apt-get install -y xfonts-cyrillic
 apt-get install -y locales
+
+apt-get update
